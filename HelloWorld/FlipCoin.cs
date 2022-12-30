@@ -1,5 +1,5 @@
 ﻿using System;
-namespace HelloWorld
+namespace BasicCoreProgram
 {
 	public class FlipCoin
     {
