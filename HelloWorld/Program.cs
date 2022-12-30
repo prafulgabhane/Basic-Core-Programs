@@ -8,7 +8,7 @@
 
             Console.WriteLine("Choose any Program");
             Console.WriteLine("1:User Data\n2:Flip Coin\n3:Leap Year\n4:Power of Two\n5:Harmonic No");
-            Console.WriteLine("6:Quotient and Remainder\n7:Swap Numbers\n8:Even or Odd");
+            Console.WriteLine("6:Quotient and Remainder\n7:Swap Numbers\n8:Even or Odd\n9:LargestOfThree");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -49,6 +49,11 @@
                 case 8:
                     Console.WriteLine("Quotient and Remainder");
                     EvenOdd.Input();
+                    break;
+
+                case 9:
+                    Console.WriteLine("Quotient and Remainder");
+                    LargestOfThree.Input();
                     break;
 
                 default:
