@@ -8,7 +8,7 @@
 
             Console.WriteLine("Choose any Program");
             Console.WriteLine("1:User Data\n2:Flip Coin\n3:Leap Year\n4:Power of Two\n5:Harmonic No");
-            Console.WriteLine("6:Quotient and Remainder\n");
+            Console.WriteLine("6:Quotient and Remainder\n7:Swap Numbers");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -41,7 +41,11 @@
                     Console.WriteLine("Quotient and Remainder");
                     QuotientAndRemainder.Input();
                     break;
-                  
+                case 7:
+                    Console.WriteLine("Quotient and Remainder");
+                    SwapNumbers.Input();
+                    break;
+
                 default:
                     Console.WriteLine("Enter Between Range");
                     break;
