@@ -37,6 +37,11 @@
                     HarmonicNumber.Input();
                     break;
 
+                case 6:
+                    Console.WriteLine("Harmonic Number");
+                    QuotientAndRemainder.Input();
+                    break;
+                    
                 default:
                     Console.WriteLine("Enter Between Range");
                     break;
